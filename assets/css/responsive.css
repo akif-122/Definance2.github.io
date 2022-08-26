@@ -1,0 +1,394 @@
+@media screen and (max-width: 1199px){
+
+.fix-img{
+	width: 90%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: -1;
+}
+
+.fix-img-2{
+	width: 30%;
+	position: absolute;
+	right: -4;
+	top: 20%;
+	z-index: 1;
+}
+
+.fix-img-3{
+	width: 120px;
+	position: absolute;
+	right: 90%;
+	top: 70%;
+}
+
+
+
+
+.toggler{
+	border: none !important;
+	font-size: 20px;
+	outline: none !important;
+}
+
+
+
+#myNav.Nav{
+	position: fixed;
+	top: 75px;
+	left: -100%;
+	overflow: scroll !important;
+	height: calc(100% - 75px);
+	background: #fff;
+	box-shadow: -10px 10px 20px -10px grey;
+	width: 400px;
+	z-index: 1000;
+}
+#myNav.Nav.show{
+	left: 0;
+}
+
+#myNav.Nav{
+	padding-top: 20px;
+}
+#myNav.Nav .navbar-left{
+	margin: 20px 0;
+}
+#myNav.Nav .navbar-left li{
+	display: block;
+	border-bottom: 1px solid lightgrey;
+}
+#myNav.Nav .navbar-left li a{
+	margin: 8px;
+	margin-left: 20px;
+	display: block;
+
+}
+.dropbtn{
+	margin: 8px ;
+	margin-left: 20px;
+	
+}
+#myNav.Nav .navbar-left li a.social-icon{
+	display: flex;
+}
+
+#myNav.Nav .navbar-right{
+	display: flex !important; 
+	justify-content: center;
+}
+#myNav.Nav .navbar-right li{
+	display: inline-block;
+	margin: 10px;
+}
+
+
+.header-section .navbar .navbar-left li a.top-social i{
+	color: #fff;
+	width: 25px;
+	height: 25px;
+	font-size: 11px; 
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: -3px;
+}
+
+}
+
+@media screen and (max-width: 991px){
+.sngle-start{
+	left: -50px;
+}
+.fix-img{
+	width: 80%;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: -1;
+}
+
+.fix-img-2{
+	width: 30%;
+	position: absolute;
+	right: -4;
+	top: 20%;
+	z-index: 1;
+}
+
+.fix-img-3{
+	width: 100px;
+	position: absolute;
+	right: 85%;
+	top: 50%;
+}
+
+
+
+
+
+
+
+.main-content{
+	clip-path: polygon(61% 0, 100% 2%, 100% 100%, 50% 100%, 0 98%, 0 0);
+}
+h1,
+h2{
+	font-size: 24px !important;
+}
+/*
+================================================
+	HEADER SECTION START
+================================================
+*/
+.content-header-section{
+	padding-bottom: 0px;
+}
+
+.content-header-section .header-text h1{
+	font-size: 28px;
+
+}
+.content-header-section .header-text p{
+	font-size: 10px;
+}
+
+.content-header-section .header-text .header-btns img{
+	width: 65%;
+}
+/*
+================================================
+	HEADER SECTION END
+================================================
+*/
+.wallet-section{
+	padding: 50px 0;
+	padding-bottom: 0;
+
+	
+}
+
+.circle-img{
+
+	top: -345%;
+}
+
+}
+
+
+
+@media screen and (max-width: 767px){
+
+.circle-img{
+	/*box-shadow: 0 0 20px 10px red;*/
+	position: absolute;
+	top: -265%;
+	left: -10%;
+	right: 10%;
+	width: 120%;
+	z-index: 100;
+}
+
+
+.wallet-mobile-pic img:first-child{
+	width: 100%;
+}
+.fix-img{
+	width: 65%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: -1;
+}
+
+.fix-img-2{
+	width: 20%;
+	position: absolute;
+	right: -2;
+	top: 20%;
+	z-index: 1;
+}
+
+.fix-img-3{
+	width: 20%;
+	position: absolute;
+	right: 75%;
+	top: 70%;
+}
+
+
+
+
+
+
+
+
+
+
+#myNav .menu-close .closer{
+	display: block;
+	font-size: 40px;
+	color: #666;
+	padding: 10px;
+	margin-right: 30px;
+	display: inline-block;
+	cursor: pointer;
+}
+h1,
+h2{
+	font-size: 24px !important;
+}
+/*
+================================================
+	HEADER SECTION START
+================================================
+*/
+.content-header-section{
+	padding-bottom: 0px;
+}
+
+.content-header-section .header-text h1{
+	font-size: 24px;
+
+}
+.content-header-section .header-text p{
+	font-size: 10px;
+}
+.funds-section .funds-btns img{
+	width: 200px;
+}
+
+.content-header-section .header-text .header-btns img{
+	min-width: 200px;
+	max-width: 200px;
+}
+
+/*
+================================================
+	HEADER SECTION END
+================================================
+*/
+
+
+/*
+===============================================
+	 WALLET SECTION START
+===============================================
+*/
+.wallet-section{
+	padding: 50px 0;
+
+	
+}
+
+.wallet-section .section-title h1{
+	font-size: 28px;
+}
+
+/*
+===============================================
+	 WALLET SECTION END
+===============================================
+*/
+
+
+/*
+===============================================
+	 SECURITY SECTION START
+===============================================
+*/
+.security-section{
+	margin: 0px 0;
+}
+
+
+/*
+===============================================
+	 SECURITY SECTION END
+===============================================
+*/
+.funds-section{
+	padding-top: 00px;
+}
+
+
+}
+
+
+@media screen and (max-width: 575px){
+
+.main-content{
+	clip-path: polygon(61% 0, 100% 1%, 100% 100%, 50% 100%, 0 99%, 0 0);
+}
+
+#myNav.Nav{
+	width: 100%;
+}
+#myNav.Nav .navbar-right li{
+	margin: 10px 0;
+}
+h1,
+h2{
+	font-size: 20px !important;
+}
+
+p{
+	font-size: 11px  !important;
+}
+
+
+.content-header-section{
+	padding-top: 50px;
+}
+.funds-section .funds-btns img{
+	width: 200px;
+}
+.content-header-section .header-text .header-btns img{
+	min-width: 200px;
+	max-width: 250px;
+}
+
+
+
+/*
+===============================================
+	 WALLET SECTION START
+===============================================
+*/
+.wallet-section{
+	padding: 70px 0;
+	background: #0b0c38;
+	clip-path: polygon(0 4%, 100% 0, 100% 98%, 0 100%);
+	
+}
+
+.wallet-section .section-title h1{
+	font-size: 24px;
+}
+.wallet-section h4{
+	font-size: 17px;
+}
+.wallet-section p{
+	font-size: 13px;
+}
+.download-btn img{
+	width: 230px;
+}
+/*
+===============================================
+	 WALLET SECTION END
+===============================================
+*/
+
+
+.footer-btns img{
+	width: 200px;
+}
+
+
+}

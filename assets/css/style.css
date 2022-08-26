@@ -1,0 +1,461 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.content-header-section .header-text .header-btns img{
+	max-width: 270px;
+}
+
+html{
+	font-size: 62.5%;
+	outline: none !important;
+}
+
+a{
+	text-decoration: none !important;
+}
+body{
+	font-family: Poppins;
+}
+.wrapper{
+	overflow: hidden;
+}
+.br-radius{
+	width: 180px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	overflow: hidden;
+}
+.app-text{
+	font-size: 12px;
+	color: #fff;
+}
+.br-radius img{
+	width: 100%;
+}
+
+.bg-top-btm{
+	background: linear-gradient( rgb(87, 184, 251),rgb(86, 90, 229));
+
+
+}
+.bg-top-btm:hover{
+	background: linear-gradient(rgb(86, 90, 229),rgb(87, 184, 251));
+	
+}
+
+.btns{
+	padding: 7px 20px !important;
+	border-radius: 30px;
+	font-size: 15px;
+	display: inline-block;
+	margin: 5px;
+	color: #fff !important;
+	font-weight: 500;
+
+}
+
+
+/*
+===============================================
+	NAVABR SECTION START
+===============================================
+*/
+
+	/*----- NAVBAR SECTION START -----*/
+#navbar_top{
+	box-shadow: 0 0 20px -10px grey;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 100;
+}
+.header-section .navbar{
+	background: #fff;
+}
+.header-section .navbar .navbar-brand img{
+	width: 140px;
+	margin-right: 10px;
+}
+.header-section .navbar .navbar-left li a{
+	font-size: 15px;
+	color: #333;
+	font-weight: 500;
+	margin: 0px 8px;
+	text-transform: capitalize;
+	display: inline-block;
+}
+.header-section .navbar .navbar-left li a:hover{
+	color: rgb(86, 90, 229);
+}
+.header-section .navbar .navbar-left li a.social-icon{
+	font-size: 13px;
+	color: #fff;
+	margin-top: -5px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.header-section .navbar .navbar-right li a .profile-container{
+	display: flex;
+	align-items: center;
+	font-size: 15px;
+}
+.header-section .navbar .navbar-right li a .profile-container .profile-img{
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	background: #222;
+	margin-right: 10px;
+}
+.header-section .navbar .navbar-right li a .profile-container .profile-img img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.header-section .navbar .navbar-right li a.top-btn{
+	/*margin-left: 15px;*/
+	display: inline-block;
+	padding: 5px 10px;
+	color: #fff;
+	border-radius: 20px;
+	font-size: 15px;
+	margin-top: 2px;
+}
+.header-section .navbar .navbar-right li a i{
+	font-size: 15px;
+	margin: 10px;
+}
+
+.header-section .navbar .navbar-left li a.top-social{
+	color: #fff;
+	width: 25px;
+	height: 25px;
+	font-size: 11px; 
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: -3px;
+}
+
+/*
+===============================================
+	NAVABR SECTION END
+===============================================
+*/
+
+.main-content{
+	color: #fff;
+	background: #0b0c38;
+	clip-path: polygon(69% 0, 100% 5%, 100% 100%, 52% 100%, 0 94%, 0 0);
+	margin-top: 75px;
+}
+
+
+
+
+
+
+
+/*
+================================================
+	HEADER SECTION START
+================================================
+*/
+.content-header-section{
+	padding: 100px 0;
+	
+}
+.header-content{
+	background: url('../img/star.png');
+	background-position: center top;
+	background-size: 100% ;
+	background-repeat: no-repeat;
+
+}
+.content-header-section .header-text{
+	padding: 20px;
+	transition: 0s;
+}
+.content-header-section .header-text h1{
+	font-size: 32px;
+	font-weight: bold;
+	margin: 20px 0;
+
+}
+.content-header-section .header-text p{
+	font-size: 10px;
+}
+
+.content-header-section .header-text .header-btns{
+	margin: 20px 0;
+}
+/*
+================================================
+	HEADER SECTION END
+================================================
+*/
+
+/*
+===============================================
+	 WALLET SECTION START
+===============================================
+*/
+.wallet-section{
+	padding: 0px 0;
+
+	
+}
+.wallet-section .section-title{
+	margin-top: 20px;
+}
+.wallet-section .section-title h1{
+	font-size: 32px;
+	font-weight: bold;
+	margin: 20px 0;
+	color: #fff;
+}
+.wallet-section .section-title p{
+	font-size: 12px;
+	color: #fff;
+}
+.wallet-section .wallet-content{
+	margin: 20px 0;
+}
+.wallet-section .wallet-content h4{
+	font-size: 17px;
+	font-weight: bold;
+	color: #6263fd;
+	margin: 10px 0;
+}
+.wallet-section .wallet-content p{
+	font-size: 12px;
+	font-weight: 400;
+	margin-bottom: 30px;
+	color: #fff;
+
+}
+.wallet-section  .download-btn img{
+	max-width: 270px;
+}
+.wallet-mobile-pic{
+	position: relative;
+}
+.wallet-mobile-pic img:nth-child(1){
+	position: relative;
+	z-index: 10;
+}
+.fix-img{
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: -1;
+}
+
+.fix-img-2{
+	width: 50%;
+	position: absolute;
+	right: -4;
+	top: 15%;
+	z-index: 1;
+}
+
+.fix-img-3{
+	width: 120px;
+	position: absolute;
+	right: 100%;
+	top: 70%;
+}
+
+/*.wallet-mobile-pic{
+	position: relative;
+	z-index: 1;
+}
+.wallet-mobile-pic:after{
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	height: 100%;
+	background: url(../img/elipse.png);
+	background-repeat: no-repeat;
+	background-size: 80% 80%;
+	z-index: 1000;
+
+
+}*/
+/*
+===============================================
+	 WALLET SECTION END
+===============================================
+*/
+
+
+/*
+===============================================
+	 SECURITY SECTION START
+===============================================
+*/
+
+.security-section{
+	margin: 0px 0;
+}
+.security-section .security-text {
+	position: relative;
+}
+.sngle-start{
+	position: absolute;
+	left: -80px;
+	top: 40px;
+	width: 100px;
+}
+.security-section .security-text h2{
+	font-size: 28px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 20px 0;
+}
+.security-section .security-text p{
+	font-size: 12px;
+}
+.security-section .security-text .security-btns img{
+	max-width: 230px;
+}
+.security-section .security-text .security-btns{
+	margin: 20px 0;
+}
+
+/*
+===============================================
+	 SECURITY SECTION END
+===============================================
+*/
+
+
+
+/*
+===============================================
+	  FUNDS SECTION START 
+===============================================
+*/
+/*.circle-img{
+	box-shadow: 0 0 20px 10px red;
+	position: absolute;
+	top: -370%;
+	left: -10%;
+	right: 10%;
+	width: 120%;
+	z-index: 100;
+
+}*/
+.funds{
+	background: url('../img/cir.png');
+	background-position: center top;
+	background-size: 75%;
+	background-repeat: no-repeat;
+}
+.funds-section{
+	margin: 60px 0;
+	padding: 60px 0;
+	padding-top: 0;
+	position: relative;
+	background: url('../img/star3.png');
+	background-position: center top;
+	background-size: 100%;
+	background-repeat: no-repeat;
+
+}
+.funds-section h2{
+	font-size: 28px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 20px 0;
+}
+.funds-section p{
+	font-size: 12px;
+	margin: 40px 0;
+}
+.funds-section .security-btns{
+	margin: 20px 0;
+}
+.funds-section .funds-btns img {
+    width: 270px;
+}
+
+/*
+===============================================
+	  FUNDS SECTION END 
+===============================================
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+===============================================
+	FOOTER SECTION START
+===============================================
+*/
+.footer-section{
+	padding: 60px 0;
+	padding-bottom: ;
+	background: #0b0c38;
+}
+.footer-section .footer-content{
+	margin: 20px 0;
+}
+.footer-section .footer-content h4{
+	font-size: 16px;
+	color: #fff;
+	margin: 10px 0;
+}
+.footer-section .footer-content ul li a{
+	font-size: 12px;
+	color: #fff;
+	/*margin: 3px 0;*/
+	display: inline-block;
+}
+.footer-section .footer-content:last-child ul li a{
+	margin: 5px 10px;
+
+
+}
+.footer-section .footer-content:last-child ul li a i{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	color: #0b0c38;
+	background: #cdcdd7;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.footer-btns img{
+	width: 200px;
+}
+/*
+===============================================
+	FOOTER SECTION END
+===============================================
+*/
